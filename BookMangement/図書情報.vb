@@ -40,6 +40,6 @@
 
     Private Sub btnLent_Click(sender As Object, e As EventArgs) Handles btnLent.Click
         ds = New DataSet
-        Ret = MsgBox("",, "")
+        Ret = MsgBox("",, "確認")
     End Sub
 End Class
