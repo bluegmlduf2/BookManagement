@@ -39,6 +39,7 @@
     End Sub
 
     Private Sub btnLent_Click(sender As Object, e As EventArgs) Handles btnLent.Click
+        ds = New DataSet
 
     End Sub
 End Class
