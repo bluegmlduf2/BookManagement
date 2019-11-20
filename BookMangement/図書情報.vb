@@ -37,4 +37,8 @@
 
         Label18.Text = ds.Tables("book").Rows(0).Item(7) '대여횟수 
     End Sub
+
+    Private Sub btnLent_Click(sender As Object, e As EventArgs) Handles btnLent.Click
+
+    End Sub
 End Class
