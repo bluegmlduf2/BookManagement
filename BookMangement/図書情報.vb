@@ -40,6 +40,35 @@
 
     Private Sub btnLent_Click(sender As Object, e As EventArgs) Handles btnLent.Click
         ds = New DataSet
-        Ret = MsgBox("",, "確認")
+        Ret = MsgBox("この図書を借りますか？", vbOKOnly, "確認")
+        If Ret = vbOK Then
+            SQL = "select * from member where m_id='" + TextBox1.Text + "'"
+            DA = New OleDb.OleDbDataAdapter(SQL, Con)
+            DA.Fill(ds, "member")
+
+            If ds.Tables("member").Rows.Count = 0 Then
+                TextBox1.Text = ""
+                TextBox1.Focus()
+            Else
+                memid.P_BookLent(TextBox1.Text, Label20.Text) '멤버아이디,도서코드
+                main.list_search("", "")
+                main.lent_id()
+                information.information()
+                MsgBox("貸与されました。" & vbCrLf & "期限を守ってください。",, "確認")
+                Me.Close()
+            End If
+        End If
+    End Sub
+
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+        Me.Close()
+
+    End Sub
+
+    Private Sub TextBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            btnLent.PerformClick()
+
+        End If
     End Sub
 End Class
