@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' 어셈블리 특성 값을 검토합니다.
 
-<Assembly: AssemblyTitle("BookManagement")>
+<Assembly: AssemblyTitle("BookMangement")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("BookManagement")>
+<Assembly: AssemblyProduct("BookMangement")>
 <Assembly: AssemblyCopyright("Copyright ©  2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 '이 프로젝트가 COM에 노출되는 경우 다음 GUID는 typelib의 ID를 나타냅니다.
-<Assembly: Guid("6c42392d-e718-4bd6-988b-06e49602ff3f")>
+<Assembly: Guid("7e04691a-dd31-41e1-9d71-b00d4c5b1026")>
 
 ' 어셈블리의 버전 정보는 다음 네 가지 값으로 구성됩니다.
 '

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BookManagement", "BookManagement\BookManagement.vbproj", "{26F034B4-1918-4CB0-9408-880ADEAA7218}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BookMangement", "BookMangement\BookMangement.vbproj", "{B8FB3D96-84FA-4929-B13B-5001C3640AD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26F034B4-1918-4CB0-9408-880ADEAA7218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26F034B4-1918-4CB0-9408-880ADEAA7218}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26F034B4-1918-4CB0-9408-880ADEAA7218}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26F034B4-1918-4CB0-9408-880ADEAA7218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FB3D96-84FA-4929-B13B-5001C3640AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FB3D96-84FA-4929-B13B-5001C3640AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FB3D96-84FA-4929-B13B-5001C3640AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FB3D96-84FA-4929-B13B-5001C3640AD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

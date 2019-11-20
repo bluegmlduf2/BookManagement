@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26F034B4-1918-4CB0-9408-880ADEAA7218}</ProjectGuid>
+    <ProjectGuid>{B8FB3D96-84FA-4929-B13B-5001C3640AD5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>BookManagement.My.MyApplication</StartupObject>
-    <RootNamespace>BookManagement</RootNamespace>
-    <AssemblyName>BookManagement</AssemblyName>
+    <StartupObject>BookMangement.My.MyApplication</StartupObject>
+    <RootNamespace>BookMangement</RootNamespace>
+    <AssemblyName>BookMangement</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>BookManagement.xml</DocumentationFile>
+    <DocumentationFile>BookMangement.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>BookManagement.xml</DocumentationFile>
+    <DocumentationFile>BookMangement.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,11 +72,59 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="libraryDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>libraryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="図書管理.Designer.vb">
+      <DependentUpon>図書管理.vb</DependentUpon>
+    </Compile>
+    <Compile Include="図書管理.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="ID入力.Designer.vb">
+      <DependentUpon>ID入力.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ID入力.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="会員管理.Designer.vb">
+      <DependentUpon>会員管理.vb</DependentUpon>
+    </Compile>
+    <Compile Include="会員管理.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="貸与情報.Designer.vb">
+      <DependentUpon>貸与情報.vb</DependentUpon>
+    </Compile>
+    <Compile Include="貸与情報.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="図書情報.Designer.vb">
+      <DependentUpon>図書情報.vb</DependentUpon>
+    </Compile>
+    <Compile Include="図書情報.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.vb">
+      <DependentUpon>home.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN.Designer.vb">
+      <DependentUpon>MAIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="情報.Designer.vb">
+      <DependentUpon>情報.vb</DependentUpon>
+    </Compile>
+    <Compile Include="情報.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,14 +144,50 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="図書管理.resx">
+      <DependentUpon>図書管理.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ID入力.resx">
+      <DependentUpon>ID入力.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="会員管理.resx">
+      <DependentUpon>会員管理.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="図書情報.resx">
+      <DependentUpon>図書情報.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN.resx">
+      <DependentUpon>MAIN.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="情報.resx">
+      <DependentUpon>情報.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="貸与情報.resx">
+      <DependentUpon>貸与情報.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="libraryDataSet.xsc">
+      <DependentUpon>libraryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="libraryDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>libraryDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="libraryDataSet.xss">
+      <DependentUpon>libraryDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -114,6 +198,11 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="library.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
