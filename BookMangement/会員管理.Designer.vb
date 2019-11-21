@@ -167,7 +167,7 @@ Partial Class member
         '
         Me.btnAdd.Location = New System.Drawing.Point(440, 312)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(77, 23)
+        Me.btnAdd.Size = New System.Drawing.Size(77, 25)
         Me.btnAdd.TabIndex = 20
         Me.btnAdd.Text = "追加"
         Me.btnAdd.UseVisualStyleBackColor = True
@@ -186,7 +186,7 @@ Partial Class member
         '
         Me.btnSave.Location = New System.Drawing.Point(518, 312)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(77, 23)
+        Me.btnSave.Size = New System.Drawing.Size(77, 25)
         Me.btnSave.TabIndex = 22
         Me.btnSave.Text = "セーブ"
         Me.btnSave.UseVisualStyleBackColor = True
@@ -195,7 +195,7 @@ Partial Class member
         '
         Me.btnDel.Location = New System.Drawing.Point(674, 312)
         Me.btnDel.Name = "btnDel"
-        Me.btnDel.Size = New System.Drawing.Size(77, 23)
+        Me.btnDel.Size = New System.Drawing.Size(77, 25)
         Me.btnDel.TabIndex = 24
         Me.btnDel.Text = "削除"
         Me.btnDel.UseVisualStyleBackColor = True
@@ -204,7 +204,7 @@ Partial Class member
         '
         Me.btnEdit.Location = New System.Drawing.Point(596, 312)
         Me.btnEdit.Name = "btnEdit"
-        Me.btnEdit.Size = New System.Drawing.Size(77, 23)
+        Me.btnEdit.Size = New System.Drawing.Size(77, 25)
         Me.btnEdit.TabIndex = 23
         Me.btnEdit.Text = "修正"
         Me.btnEdit.UseVisualStyleBackColor = True
@@ -213,7 +213,7 @@ Partial Class member
         '
         Me.btnCancel.Location = New System.Drawing.Point(752, 312)
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(77, 23)
+        Me.btnCancel.Size = New System.Drawing.Size(77, 25)
         Me.btnCancel.TabIndex = 25
         Me.btnCancel.Text = "取り消し"
         Me.btnCancel.UseVisualStyleBackColor = True

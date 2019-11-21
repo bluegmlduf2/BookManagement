@@ -24,11 +24,11 @@ Partial Class inforLentUser
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.btnReturn = New System.Windows.Forms.Button()
         Me.btnClose = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -43,6 +43,23 @@ Partial Class inforLentUser
         Me.GroupBox1.Size = New System.Drawing.Size(574, 315)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.AllowUserToAddRows = False
+        Me.DataGridView1.AllowUserToDeleteRows = False
+        Me.DataGridView1.AllowUserToResizeColumns = False
+        Me.DataGridView1.AllowUserToResizeRows = False
+        Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(6, 24)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.ReadOnly = True
+        Me.DataGridView1.RowHeadersVisible = False
+        Me.DataGridView1.RowTemplate.Height = 27
+        Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.DataGridView1.Size = New System.Drawing.Size(562, 270)
+        Me.DataGridView1.TabIndex = 0
         '
         'Label1
         '
@@ -63,30 +80,21 @@ Partial Class inforLentUser
         '
         'btnReturn
         '
-        Me.btnReturn.Location = New System.Drawing.Point(326, 354)
+        Me.btnReturn.Location = New System.Drawing.Point(326, 352)
         Me.btnReturn.Name = "btnReturn"
-        Me.btnReturn.Size = New System.Drawing.Size(75, 23)
+        Me.btnReturn.Size = New System.Drawing.Size(75, 25)
         Me.btnReturn.TabIndex = 3
         Me.btnReturn.Text = "返納"
         Me.btnReturn.UseVisualStyleBackColor = True
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(407, 355)
+        Me.btnClose.Location = New System.Drawing.Point(407, 353)
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(75, 23)
+        Me.btnClose.Size = New System.Drawing.Size(75, 25)
         Me.btnClose.TabIndex = 4
         Me.btnClose.Text = "閉じる"
         Me.btnClose.UseVisualStyleBackColor = True
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(6, 24)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowTemplate.Height = 27
-        Me.DataGridView1.Size = New System.Drawing.Size(562, 270)
-        Me.DataGridView1.TabIndex = 0
         '
         'inforLentUser
         '

@@ -48,7 +48,7 @@ Partial Class memid
         '
         Me.btnOk.Location = New System.Drawing.Point(38, 115)
         Me.btnOk.Name = "btnOk"
-        Me.btnOk.Size = New System.Drawing.Size(75, 23)
+        Me.btnOk.Size = New System.Drawing.Size(75, 25)
         Me.btnOk.TabIndex = 2
         Me.btnOk.Text = "確認"
         Me.btnOk.UseVisualStyleBackColor = True
@@ -57,7 +57,7 @@ Partial Class memid
         '
         Me.btnCancel.Location = New System.Drawing.Point(119, 115)
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(75, 23)
+        Me.btnCancel.Size = New System.Drawing.Size(75, 25)
         Me.btnCancel.TabIndex = 3
         Me.btnCancel.Text = "取り消し"
         Me.btnCancel.UseVisualStyleBackColor = True

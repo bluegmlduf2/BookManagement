@@ -181,6 +181,7 @@
 
         DataSet.Tables("book").Columns.Add("連帯日付")
 
+        '날짜 차이 구하는 메서드
         Do While i < DataSet.Tables("book").Rows.Count
             DataSet.Tables("book").Rows(i).Item(3) =
              Strings.Left(DataSet.Tables("book").Rows(i).Item(3), 10)

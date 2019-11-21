@@ -83,18 +83,18 @@ Partial Class main
         '
         'btnPrev
         '
-        Me.btnPrev.Location = New System.Drawing.Point(224, 65)
+        Me.btnPrev.Location = New System.Drawing.Point(224, 63)
         Me.btnPrev.Name = "btnPrev"
-        Me.btnPrev.Size = New System.Drawing.Size(45, 23)
+        Me.btnPrev.Size = New System.Drawing.Size(45, 25)
         Me.btnPrev.TabIndex = 4
         Me.btnPrev.Text = "以前"
         Me.btnPrev.UseVisualStyleBackColor = True
         '
         'btnFind
         '
-        Me.btnFind.Location = New System.Drawing.Point(173, 65)
+        Me.btnFind.Location = New System.Drawing.Point(173, 63)
         Me.btnFind.Name = "btnFind"
-        Me.btnFind.Size = New System.Drawing.Size(45, 23)
+        Me.btnFind.Size = New System.Drawing.Size(45, 25)
         Me.btnFind.TabIndex = 3
         Me.btnFind.Text = "確認"
         Me.btnFind.UseVisualStyleBackColor = True
@@ -145,9 +145,9 @@ Partial Class main
         '
         'btnLentOrReturn
         '
-        Me.btnLentOrReturn.Location = New System.Drawing.Point(182, 65)
+        Me.btnLentOrReturn.Location = New System.Drawing.Point(182, 63)
         Me.btnLentOrReturn.Name = "btnLentOrReturn"
-        Me.btnLentOrReturn.Size = New System.Drawing.Size(45, 23)
+        Me.btnLentOrReturn.Size = New System.Drawing.Size(45, 25)
         Me.btnLentOrReturn.TabIndex = 5
         Me.btnLentOrReturn.Text = "確認"
         Me.btnLentOrReturn.UseVisualStyleBackColor = True
@@ -207,6 +207,8 @@ Partial Class main
         '
         Me.DataGridView2.AllowUserToAddRows = False
         Me.DataGridView2.AllowUserToDeleteRows = False
+        Me.DataGridView2.AllowUserToResizeColumns = False
+        Me.DataGridView2.AllowUserToResizeRows = False
         Me.DataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView2.Location = New System.Drawing.Point(6, 50)
@@ -244,6 +246,8 @@ Partial Class main
         '
         Me.DataGridView3.AllowUserToAddRows = False
         Me.DataGridView3.AllowUserToDeleteRows = False
+        Me.DataGridView3.AllowUserToResizeColumns = False
+        Me.DataGridView3.AllowUserToResizeRows = False
         Me.DataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.DataGridView3.Location = New System.Drawing.Point(6, 39)
@@ -281,9 +285,9 @@ Partial Class main
         '
         'btnSortByLending
         '
-        Me.btnSortByLending.Location = New System.Drawing.Point(290, 37)
+        Me.btnSortByLending.Location = New System.Drawing.Point(288, 37)
         Me.btnSortByLending.Name = "btnSortByLending"
-        Me.btnSortByLending.Size = New System.Drawing.Size(75, 23)
+        Me.btnSortByLending.Size = New System.Drawing.Size(75, 25)
         Me.btnSortByLending.TabIndex = 3
         Me.btnSortByLending.Text = "貸与"
         Me.btnSortByLending.UseVisualStyleBackColor = True
@@ -292,7 +296,7 @@ Partial Class main
         '
         Me.btnSortByPublisher.Location = New System.Drawing.Point(194, 37)
         Me.btnSortByPublisher.Name = "btnSortByPublisher"
-        Me.btnSortByPublisher.Size = New System.Drawing.Size(75, 23)
+        Me.btnSortByPublisher.Size = New System.Drawing.Size(75, 25)
         Me.btnSortByPublisher.TabIndex = 2
         Me.btnSortByPublisher.Text = "出版社"
         Me.btnSortByPublisher.UseVisualStyleBackColor = True
@@ -301,7 +305,7 @@ Partial Class main
         '
         Me.btnSortByAuthor.Location = New System.Drawing.Point(100, 37)
         Me.btnSortByAuthor.Name = "btnSortByAuthor"
-        Me.btnSortByAuthor.Size = New System.Drawing.Size(75, 23)
+        Me.btnSortByAuthor.Size = New System.Drawing.Size(75, 25)
         Me.btnSortByAuthor.TabIndex = 1
         Me.btnSortByAuthor.Text = "著者"
         Me.btnSortByAuthor.UseVisualStyleBackColor = True
@@ -310,7 +314,7 @@ Partial Class main
         '
         Me.btnSortByTitle.Location = New System.Drawing.Point(6, 37)
         Me.btnSortByTitle.Name = "btnSortByTitle"
-        Me.btnSortByTitle.Size = New System.Drawing.Size(75, 23)
+        Me.btnSortByTitle.Size = New System.Drawing.Size(75, 25)
         Me.btnSortByTitle.TabIndex = 0
         Me.btnSortByTitle.Text = "タイトル"
         Me.btnSortByTitle.UseVisualStyleBackColor = True
@@ -331,6 +335,8 @@ Partial Class main
         '
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.AllowUserToDeleteRows = False
+        Me.DataGridView1.AllowUserToResizeColumns = False
+        Me.DataGridView1.AllowUserToResizeRows = False
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(6, 45)

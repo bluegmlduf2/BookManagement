@@ -276,18 +276,18 @@ Partial Class inforbook
         '
         'btnLent
         '
-        Me.btnLent.Location = New System.Drawing.Point(214, 447)
+        Me.btnLent.Location = New System.Drawing.Point(214, 445)
         Me.btnLent.Name = "btnLent"
-        Me.btnLent.Size = New System.Drawing.Size(66, 23)
+        Me.btnLent.Size = New System.Drawing.Size(63, 25)
         Me.btnLent.TabIndex = 22
         Me.btnLent.Text = "貸与"
         Me.btnLent.UseVisualStyleBackColor = True
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(286, 448)
+        Me.btnClose.Location = New System.Drawing.Point(286, 446)
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(63, 23)
+        Me.btnClose.Size = New System.Drawing.Size(63, 25)
         Me.btnClose.TabIndex = 23
         Me.btnClose.Text = "閉じる"
         Me.btnClose.UseVisualStyleBackColor = True
